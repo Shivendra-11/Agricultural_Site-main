@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Site</title>
+    <link rel="icon" href="Assests/favicon  icon.png">
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+
+<body>
+
+    <!-- NavBar Section -->
+    <nav class="navbar flex container" >
+        <div class="left-nav flex">
+            <img src="./IMG_20230930_163428.png" alt="logo">
+            <ul class="list-items flex">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#weather">Weather</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#gallary">Gallary</a></li>
+                
+            </ul>
+        </div>
+        <div class="right-nav ">
+            <i class="fa-solid fa-bars fa-xl " id="menu-icon"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <div class="slideshow-container   " id="home">
+        <div class="slide">
+            <img src="Assests/slider1.jpg" alt="Image 1">
+            <div class="text-container">
+                <h1>What's in this season ?</h1>
+                <p>Your Guide is here to help you ...</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="Assests/slider-2.jpg" alt="Image 2">
+            <div class="text-container">
+                <h1>What's in this season ?</h1>
+                <p>Your Guide is here to help you ...</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="Assests/slider-3.jpg" alt="Image 2">
+            <div class="text-container">
+                <h1>What's in this season ?</h1>
+                <p>Your Guide is here to help you ...</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="Assests/slider-4.jpg" alt="Image 2">
+            <div class="text-container">
+                <h1>What's in this season ?</h1>
+                <p>Your Guide is here to help you ...</p>
+            </div>
+        </div>
+        <!-- Add more slides here -->
+    </div>
+
+     <!-- weather API Section-->
+     <div class="app-wrap" id="weather">
+		<header>
+			<input type="text" autocomplete="off" class="search-box" placeholder="Search for a city">
+		</header>
+
+		<main>
+			<section class="location">
+				<div class="city">Durg, Chhattisgarh</div>
+				<div class="date">Friday 2 June</div>
+			</section>
+
+			<div class="current">
+				<div class="temp">38<span>°C</span></div>
+				<div class="weather">Sunny</div>
+				<div class="hi-low">13°C / 16°C</div>
+			</div>
+		</main>
+	</div>
+
+    <!--Contact Us Section-->
+    
+    <div class="contactus container  " id="contactus">
+        <h1 class="cont-us">Contact Us</h1>
+       <div class="flex">
+        <div class="left-sec">
+
+            <form action="mailto:business.farmvista@gmail.com" id="myform">
+                <label for="name">Name.</label>
+                <br>
+                <input type=" text" placeholder="Enter Your Name" required id="name" name="name">
+                <br>
+                <label for="mobile">Mobile No.</label>
+                <br>
+                <input type="number" id="mobile" name="mobile" placeholder="Enter phone Number" required>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" placeholder="Enter Email" id="email" name="email" required>
+                <label for="Message">
+                    Message
+                </label>
+                <br>
+                <br>
+
+                <textarea name="message" id="message" cols="60" rows="7">
+                </textarea>
+
+                <button class="btn">Send Message</button>
+
+
+            </form>
+        </div>
+        <div class="right-sec">
+            <div class="contactInfo flex">
+                <div class="photo">
+                    <i class="fa-solid fa-phone-volume fa-xl"></i>
+                </div>
+                <div class="content">
+                    <h3>Contact Info </h3>
+                    <p>+91 9893936367</p>
+                </div>
+            </div>
+            <div class="contactInfo flex">
+                <div class="photo">
+                    <i class="fa-solid fa-envelope fa-xl"></i>
+                </div>
+                <div class="content">
+                    <h3>Email </h3>
+                    <p><a href="mailto:business.farmvista@gmail.com">business.farmvista@gmail.com </a></p>
+                </div>
+            </div>
+            <div class="contactInfo flex" id="open-map-button">
+                <div class="photo">
+                    <i class="fa-solid fa-location-dot fa-xl"></i>
+                </div>
+                <div class="content">
+                    <h3>Resitered office at </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente impedit hic esse dicta at</p>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <!--NEws Section-->
+    <div class="news-section container " id="news">
+        <h1 class="news-sec">News Section</h1>
+        <div class="news-1 flex">
+            <div class="img-sec">
+                <img src="Assests/news-1.jpg" alt="">
+            </div>
+            <div class="content-sec">
+                <p>
+                    👉त्यामुळे कपाशी पिकाचे शेंडे खुडणे करण्यापेक्षा जर आपण L आकार सुतळीने बांधले तर तीन ते चार पटीने उत्पादन आपले वाढू 🌅👈शकते
+                    कपाशी पिकाचा शेंडा  खुडनी केल्यानंतर  कपाशीचे झाड सरळ न वाढता साईडला फळफांद्या घेऊन अधिक वाढते आणि अनेक शेतकरी त्याच कपाशीच्या प्लॉटमध्ये शेंडे खुडणी करतात जिथे अंतर कमी आहे एक तर पहिलेच अंतर कमी आणि त्यानंतर शेंडे  खुडनी केल्यानंतर प्लॉट उभा न वाढता पट्ट्यामध्ये अधिक प्रमाणात वाढतो..
+                </p>
+            </div>
+
+        </div>
+        <div class="news-1 flex">
+            
+            <div class="content-sec">
+                <p>फवारणी मध्ये युरिया घेत असताना वेगवेगळ्या प्रकारचा गैरसमज शेतकऱ्यांमध्ये पसरवल्या जातत काही शेती तज्ञ म्हणतात युरिया घेतल्यामुळे कपाशीचे पान जळतात करपतात  किंवा काही तज्ञ म्हणतात युरियामुळे फवारणी मध्ये घेतल्या पिकाची वाढ अधिक प्रमाणात होते तर शेतकरी ची माहिती सर्व चुकीची आहे </p>
+            </div>
+            <div class="img-sec">
+                <img src="Assests/news-2.jpg" alt="">
+            </div>
+
+
+        </div>
+        <div class="news-1 flex">
+            <div class="img-sec">
+                <img src="Assests/news-3.jpg" alt="">
+            </div>
+            <div class="content-sec">
+                <p>
+                    त्यामुळे पट्ट्यामध्ये खाल पर्यंत सूर्यप्रकाश हा मिळत नाही त्यामुळे कपाशीच्या प्लॉटमध्ये पातेगळ पान पिवळे लाल होणे बोंड सड या रोगाचा अधिक प्रादुर्भाव आढळून येतो बोंडाची संख्या ही वरच आपल्याला लागलेली बघायला मिळते म्हणजेच बुडा पासून वरती बोंड सारख्या प्रमाणात  लागलेले बघायला मिळत नाही 
+                </p>
+            </div>
+
+
+        </div>
+        <div class="news-1 flex">
+            
+            <div class="content-sec">
+                <p>
+                    फवारणी मध्ये युरिया घेत असताना वेगवेगळ्या प्रकारचा गैरसमज शेतकऱ्यांमध्ये पसरवल्या जातत काही शेती तज्ञ म्हणतात युरिया घेतल्यामुळे कपाशीचे पान जळतात करपतात किंवा काही तज्ञ म्हणतात युरियामुळे फवारणी मध्ये घेतल्या पिकाची वाढ अधिक प्रमाणात होते तर शेतकरी ची माहिती सर्व चुकीची आहे
+                </p>
+            </div>
+            <div class="img-sec">
+                <img src="Assests/news-4.jpg" alt="">
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="gallary-sec container" id="gallary">
+        <h1 class="news-sec">Gallary </h1>
+        <div class="gallary-box flex">
+            <img src="Assests/gallary-1.jpeg" alt="">
+            <img src="Assests/gallary-2.jpg" alt="">
+            <img src="Assests/gallary-3.jpeg" alt="">
+           
+        </div>
+        <div class="gallary-box flex">
+            <img src="Assests/gallary-4.webp" alt="">
+            <img src="Assests/gallary-5.jpg" alt="">
+            <img src="Assests/gallary-6.jpg" alt="">
+           
+        </div>
+        
+        <div class="gallary-box flex">
+            <img src="Assests/gallary-7.jpeg" alt="">
+            <img src="Assests/gallary-8.jpeg" alt="">
+            <img src="Assests/gallary-9.avif" alt="">
+           
+        </div>
+        
+        <div class="gallary-box flex">
+            <img src="Assests/gallary-10.webp" alt="">           
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="footer-sec">
+        <div class="flex footer-section">
+            <div class="pages">
+                <h2>Pages</h2>
+                <ul>
+                    <li>News</li>
+                    <li>Gallary</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="terms-section">
+                <h2>Terms & Privacy Policy </h2>
+                <ul>
+                    <li>Terms & Condition</li>
+                    <li> Privacy Privacy</li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <p> +91 6390148681</p>
+                <h3>shivendrakeshari11@gmail.com</h3>
+            </div>
+        </div>
+
+
+    </footer>
+   
+
+    <!-- Script Section-->
+    <script src="JavaScript/script.js"></script>
+    <script src="https://kit.fontawesome.com/abaa40404c.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
